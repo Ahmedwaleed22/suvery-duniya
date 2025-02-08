@@ -11,8 +11,8 @@ import os
 import jwt
 
 stripe_keys = {
-  'secret_key': 'sk_test_51KL5fZSIeo8cbA9acaGiriXApreMJoliz1YnTX9SdweJMliwxVUeMDoU8zdb8nLFFVMmcUizp1S2BSlx1OVwhJ5j00i59tU6US',
-  'publishable_key': 'pk_test_51KL5fZSIeo8cbA9aFNsoJYy35jp4ePQtnrJOSUwc34oMGcc0KL88oW1KB9jsdm0ZoShZwOh1zLba7yI6c6NxDIc200kIlLxI9q'
+  'secret_key': '',
+  'publishable_key': ''
 }
 
 stripe.api_key = stripe_keys['secret_key']
